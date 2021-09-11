@@ -1,7 +1,6 @@
-import { Props } from "react-apexcharts";
 import { SalePage } from "types/sale";
 
-type props = {
+type Props = {
     page: SalePage;
     onPageChange: Function;
 }
